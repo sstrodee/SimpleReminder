@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Projects\\SimpleReminder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|d:\\projects\\simplereminder\\simplereminder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|d:\\projects\\simplereminder\\simplereminder\\notificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|D:\\Projects\\SimpleReminder\\simplereminder\\notificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\notificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|d:\\projects\\simplereminder\\simplereminder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|D:\\Projects\\SimpleReminder\\simplereminder\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|D:\\Projects\\SimpleReminder\\simplereminder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|d:\\projects\\simplereminder\\simplereminder\\models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|D:\\Projects\\SimpleReminder\\simplereminder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|d:\\projects\\simplereminder\\simplereminder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|D:\\Projects\\SimpleReminder\\simplereminder\\models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|d:\\projects\\simplereminder\\simplereminder\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|D:\\Projects\\SimpleReminder\\simplereminder\\localresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BBBE55C-DE5B-42AD-A6BB-F50B18961A00}|SimpleReminder\\SimpleReminder.csproj|solutionrelative:simplereminder\\localresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,45 +46,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Reminder.cs",
-              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\Models\\Reminder.cs",
-              "RelativeDocumentMoniker": "SimpleReminder\\Models\\Reminder.cs",
-              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\Models\\Reminder.cs",
-              "RelativeToolTip": "SimpleReminder\\Models\\Reminder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:22:22.957Z",
+              "DocumentIndex": 6,
+              "Title": "LocalResources.xaml",
+              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\LocalResources.xaml",
+              "RelativeDocumentMoniker": "SimpleReminder\\LocalResources.xaml",
+              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\LocalResources.xaml",
+              "RelativeToolTip": "SimpleReminder\\LocalResources.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T19:25:04.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NotificationWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SimpleReminder\\NotificationWindow.xaml.cs",
-              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml.cs",
-              "RelativeToolTip": "SimpleReminder\\NotificationWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:11:48.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotificationWindow.xaml",
-              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml",
-              "RelativeDocumentMoniker": "SimpleReminder\\NotificationWindow.xaml",
-              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml",
-              "RelativeToolTip": "SimpleReminder\\NotificationWindow.xaml",
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\App.xaml",
+              "RelativeDocumentMoniker": "SimpleReminder\\App.xaml",
+              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\App.xaml",
+              "RelativeToolTip": "SimpleReminder\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T18:09:35.047Z",
+              "WhenOpened": "2025-03-25T19:08:08.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SimpleReminder\\MainWindow.xaml",
@@ -88,13 +82,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\Models\\Reminder.cs",
+              "RelativeDocumentMoniker": "SimpleReminder\\Models\\Reminder.cs",
+              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\Models\\Reminder.cs",
+              "RelativeToolTip": "SimpleReminder\\Models\\Reminder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:22:22.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SimpleReminder\\NotificationWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml.cs",
+              "RelativeToolTip": "SimpleReminder\\NotificationWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:11:48.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml",
+              "RelativeDocumentMoniker": "SimpleReminder\\NotificationWindow.xaml",
+              "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\NotificationWindow.xaml",
+              "RelativeToolTip": "SimpleReminder\\NotificationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T18:09:35.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SimpleReminder\\SimpleReminder\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SimpleReminder\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\SimpleReminder\\SimpleReminder\\MainWindow.xaml.cs",
               "RelativeToolTip": "SimpleReminder\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAowO0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAAAiwP0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T17:51:53.281Z",
               "EditorCaption": ""

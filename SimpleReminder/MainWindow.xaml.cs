@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Windows;
@@ -7,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
+using MaterialDesignThemes.Wpf;
 using Newtonsoft.Json;
 
 namespace SimpleReminder
@@ -21,6 +23,8 @@ namespace SimpleReminder
 
         public MainWindow()
         {
+            if (DesignerProperties.GetIsInDesignMode(new DependencyObject()))
+                return;
             InitializeComponent();
 
             // Инициализация текстового поля с подсказкой
@@ -39,6 +43,7 @@ namespace SimpleReminder
         private void InitializeReminderTimer()
         {
             _reminderTimer = new DispatcherTimer();
+            _reminderTimer.Interval = TimeSpan.FromSeconds(1);
             _reminderTimer.Tick += CheckReminders;
         }
 
@@ -81,7 +86,6 @@ namespace SimpleReminder
 
         private void UpdateRemindersList()
         {
-            // Правильное обновление списка
             RemindersListBox.ItemsSource = null;
             RemindersListBox.ItemsSource = _reminders;
         }
@@ -135,15 +139,28 @@ namespace SimpleReminder
             if (_reminderTimer.IsEnabled)
             {
                 _reminderTimer.Stop();
-                ((Button)sender).Content = "▶";
+                StartButton.Content = new StackPanel
+                {
+                    Orientation = Orientation.Horizontal,
+                    Children =
+                    {
+                        new PackIcon { Kind = PackIconKind.Play, Width = 16, Height = 16, Margin = new Thickness(0,0,4,0) },
+                        new TextBlock { Text = "СТАРТ" }
+                    }
+                };
             }
             else
             {
-                // Устанавливаем интервал 1 секунду для проверки
-                // (но сами напоминания срабатывают по их интервалам)
-                _reminderTimer.Interval = TimeSpan.FromSeconds(1);
                 _reminderTimer.Start();
-                ((Button)sender).Content = "⏸";
+                StartButton.Content = new StackPanel
+                {
+                    Orientation = Orientation.Horizontal,
+                    Children =
+                    {
+                        new PackIcon { Kind = PackIconKind.Pause, Width = 16, Height = 16, Margin = new Thickness(0,0,4,0) },
+                        new TextBlock { Text = "ПАУЗА" }
+                    }
+                };
                 _nextNotificationTime = DateTime.Now.Add(_reminderTimer.Interval);
             }
         }
@@ -173,7 +190,6 @@ namespace SimpleReminder
 
             if (_reminderTimer.IsEnabled)
             {
-                // Находим ближайшее запланированное уведомление
                 var nextReminder = _reminders
                     .Where(r => r.IsEnabled)
                     .Select(r => r.LastShown.Add(r.Interval))
