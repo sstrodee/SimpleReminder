@@ -1,0 +1,73 @@
+﻿<Window x:Class="SimpleReminder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Моя напоминалка" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Панель управления -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <Button Content="+" Click="AddReminder_Click" Width="30"/>
+            <Button Content="▶" Click="StartReminders_Click" Margin="5,0" x:Name="StartButton"/>
+            <TextBox x:Name="NewReminderText" 
+                     Width="150" 
+                     Margin="5,0"
+                     Text="Введите напоминание..."
+                     Foreground="Gray"
+                     GotFocus="TextBox_GotFocus"
+                     LostFocus="TextBox_LostFocus"/>
+            <TextBox x:Name="IntervalTextBox" 
+                     Width="50" 
+                     Margin="5,0"
+                     Text="30"
+                     ToolTip="Интервал в минутах"
+                     PreviewTextInput="NumberValidationTextBox"/>
+            <TextBlock Text="мин" Margin="5,0" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Список напоминаний -->
+        <ListBox Grid.Row="1" x:Name="RemindersListBox" Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="5" Margin="2" Background="#FFF0F0F0">
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox IsChecked="{Binding IsEnabled}" 
+                                      VerticalAlignment="Center"
+                                      Margin="5,0"/>
+                            <TextBlock Text="{Binding Message}" 
+                                       Margin="10,0" 
+                                       Width="200"
+                                       TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Interval.TotalMinutes}" 
+                                       Margin="5,0"
+                                       VerticalAlignment="Center"/>
+                            <TextBlock Text="мин" 
+                                       Margin="0,0,10,0"
+                                       VerticalAlignment="Center"/>
+                            <Button Content="❌" 
+                                    Click="DeleteReminder_Click" 
+                                    Tag="{Binding}"
+                                    Margin="5,0"
+                                    Width="25"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- Статус-бар -->
+        <StatusBar Grid.Row="2" Background="#FFE0E0E0">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Text="Готов к работе"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="TimeRemainingText" Text=""/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
